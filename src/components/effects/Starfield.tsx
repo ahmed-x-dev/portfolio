@@ -1,3 +1,5 @@
+import { useMemo } from "react";
+
 interface Star {
   id: number;
   size: number;
@@ -19,7 +21,7 @@ function generateStars(count: number): Star[] {
 }
 
 export default function StarField({ count = 90 }: { count?: number }) {
-  const stars = generateStars(count);
+  const stars = useMemo(() => generateStars(count), [count]);
 
   return (
     <div
@@ -38,7 +40,7 @@ export default function StarField({ count = 90 }: { count?: number }) {
               height: `${s.size}px`,
               top: `${s.top}%`,
               left: `${s.left}%`,
-              animation: `twinkle ${s.duration}s ease-in-out infinite`,
+              animation: `twinkle ${s.duration}s ease-in-out infinite backwards`, // backwards: tells the browser to apply the 0% keyframe during the delay
               animationDelay: `${s.delay}s`,
             } as React.CSSProperties
           }

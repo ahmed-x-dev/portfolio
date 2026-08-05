@@ -1,16 +1,11 @@
 import Nav from "@/components/Nav";
-
+import Hero from "@/components/Hero";
 export default function Home() {
   return (
     <>
       <Nav />
       <main>
-        <section
-          id="hero"
-          className="h-screen flex items-center justify-center"
-        >
-          <p className="font-display text-cream text-3xl">Hero section</p>
-        </section>
+        <Hero />
 
         <section
           id="about"

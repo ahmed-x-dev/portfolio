@@ -4,11 +4,11 @@ import { useEffect, useState } from "react";
 
 // config array for the nav links, each with an href and label
 const links = [
-  { href: "#hero", label: "home" },
-  { href: "#about", label: "about" },
-  { href: "#projects", label: "projects" },
-  { href: "#skills", label: "skills" },
-  { href: "#contact", label: "contact" },
+  { href: "#hero", label: "Home" },
+  { href: "#about", label: "About" },
+  { href: "#projects", label: "Projects" },
+  { href: "#skills", label: "Skills" },
+  { href: "#contact", label: "Contact" },
 ];
 
 export default function Nav() {
@@ -45,7 +45,9 @@ export default function Nav() {
           <a
             key={link.href}
             href={link.href} // the href is the section id, e.g., #about, #projects, etc.(Automatically scrolls to the section that matches its ID when clicked *_*)
-            className={`font-mono text-[0.9rem] tracking-wide transition-colors ${
+            className={`font-mono text-[0.99rem] tracking-wide transition-colors ${
+              // transition-colors : makes the color change smooth when the active section changes
+              // tracking-wide : increases the spacing between letters for better readability
               active === link.href.slice(1) ? "text-fire-light" : "text-dim" // slice(1) removes the # from the href to match the section id
             } hover:text-cream`}
           >

@@ -19,6 +19,7 @@
   --font-mono: var(--font-jetbrains-mono), monospace;
 }
 
+/* Animations */
 @keyframes flicker {
   0%,
   100% {
@@ -33,7 +34,9 @@
 }
 
 @keyframes twinkle {
-  0%,
+  0% {
+    opacity: 0;
+  }
   100% {
     opacity: 0.15;
   }
@@ -53,6 +56,15 @@
   100% {
     transform: translate(var(--drift, 20px), -110vh);
     opacity: 0;
+  }
+}
+
+@keyframes fieldFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }
 
@@ -91,18 +103,9 @@
   transform-origin: bottom center;
 }
 
+/* Global Styles */
 body {
   background: var(--color-bg);
-  background: radial-gradient(ellipse at 50% 0%, #171531 0%, #0a0a16 60%);
   color: var(--color-cream);
   font-family: var(--font-sans);
-}
-
-@keyframes fieldFadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
 }
