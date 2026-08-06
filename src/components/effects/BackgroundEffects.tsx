@@ -7,12 +7,14 @@ import dynamic from "next/dynamic"; // "next/dynamic" is used to dynamically imp
 
 const StarField = dynamic(() => import("./Starfield"), { ssr: false });
 const Embers = dynamic(() => import("./Embers"), { ssr: false });
+const Music = dynamic(() => import("./Music"), { ssr: false });
 
 export default function BackgroundEffects() {
   return (
     <>
       <StarField />
       <Embers />
+      <Music />
     </>
   );
 }

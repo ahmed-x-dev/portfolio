@@ -1,40 +1,23 @@
 import Nav from "@/components/Nav";
 import Hero from "@/components/Hero";
+import About from "@/components/About";
+import Projects from "@/components/Projects";
+import Skills from "@/components/Skills";
+import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
+
 export default function Home() {
   return (
     <>
       <Nav />
       <main>
         <Hero />
-
-        <section
-          id="about"
-          className="h-screen flex items-center justify-center"
-        >
-          <p className="font-display text-cream text-3xl">About section</p>
-        </section>
-
-        <section
-          id="projects"
-          className="h-screen flex items-center justify-center"
-        >
-          <p className="font-display text-cream text-3xl">Projects section</p>
-        </section>
-
-        <section
-          id="skills"
-          className="h-screen flex items-center justify-center"
-        >
-          <p className="font-display text-cream text-3xl">Skills section</p>
-        </section>
-
-        <section
-          id="contact"
-          className="h-screen flex items-center justify-center"
-        >
-          <p className="font-display text-cream text-3xl">Contact section</p>
-        </section>
+        <About />
+        <Projects />
+        <Skills />
+        <Contact />
       </main>
+      <Footer />
     </>
   );
 }
