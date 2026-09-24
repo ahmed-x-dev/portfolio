@@ -25,14 +25,19 @@ export default function Contact() {
         </a>
 
         <div className="flex justify-center gap-6.5 mt-7.5 font-mono text-[0.82rem] text-dim">
-          <a href="#" className="hover:text-nomai">
+          <a
+            href="https://github.com/ahmed-x-dev"
+            target="_blank"
+            className="hover:text-nomai"
+          >
             GitHub
           </a>
-          <a href="#" className="hover:text-nomai">
+          <a
+            href="https://www.linkedin.com/in/ahmed-faisal-680413248"
+            target="_blank"
+            className="hover:text-nomai"
+          >
             LinkedIn
-          </a>
-          <a href="#" className="hover:text-nomai">
-            Twitter
           </a>
         </div>
       </div>

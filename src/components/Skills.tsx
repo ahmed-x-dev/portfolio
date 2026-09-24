@@ -1,69 +1,4 @@
-const nodes = [
-  {
-    id: "typescript",
-    label: "TypeScript",
-    x: 90,
-    y: 80,
-    r: 6,
-    glowR: 20,
-    labelDy: -20,
-  },
-  {
-    id: "react",
-    label: "React",
-    x: 230,
-    y: 150,
-    r: 7,
-    glowR: 24,
-    labelDy: -22,
-  },
-  {
-    id: "nextjs",
-    label: "Next.js",
-    x: 380,
-    y: 70,
-    r: 6,
-    glowR: 20,
-    labelDy: -20,
-  },
-  {
-    id: "nodejs",
-    label: "Node.js",
-    x: 330,
-    y: 240,
-    r: 6,
-    glowR: 20,
-    labelDy: 24,
-  },
-  {
-    id: "postgresql",
-    label: "PostgreSQL",
-    x: 480,
-    y: 200,
-    r: 6,
-    glowR: 20,
-    labelDy: 24,
-  },
-  {
-    id: "docker",
-    label: "Docker",
-    x: 520,
-    y: 120,
-    r: 5,
-    glowR: 18,
-    labelDy: -18,
-  },
-  { id: "git", label: "Git", x: 60, y: 220, r: 5, glowR: 18, labelDy: 24 },
-];
-
-const links = [
-  ["typescript", "react"],
-  ["react", "nextjs"],
-  ["react", "nodejs"],
-  ["nodejs", "postgresql"],
-  ["nextjs", "docker"],
-  ["typescript", "git"],
-];
+import { nodes, links } from "@/data/skills";
 
 export default function Skills() {
   const nodeMap = Object.fromEntries(nodes.map((n) => [n.id, n]));
@@ -74,7 +9,7 @@ export default function Skills() {
         {"// MAPPED SO FAR"}
       </div>
       <h2 className="font-display text-[clamp(1.9rem,4vw,2.7rem)] font-semibold mb-11">
-        Star Chart
+        Skills
       </h2>
 
       <div className="relative max-w-180">

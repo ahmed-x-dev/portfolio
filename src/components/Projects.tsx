@@ -1,41 +1,13 @@
-const projects = [
-  {
-    name: "TaskFlow",
-    date: "LOG // 07.14 — LAUNCHED",
-    description:
-      "Real-time collaborative task board with live cursors and instant sync across users.",
-    stack: ["React", "Node.js", "WebSockets", "PostgreSQL"],
-    liveUrl: "https://taskflow.example.com",
-    sourceUrl: "https://github.com/ahmed-x-dev",
-  },
-  {
-    name: "DevBoard",
-    date: "LOG // 03.22 — LAUNCHED",
-    description:
-      "API monitoring dashboard tracking uptime, latency, and errors with live alerts.",
-    stack: ["TypeScript", "Express", "Docker", "Redis"],
-    liveUrl: "https://devboard.example.com",
-    sourceUrl: "https://github.com/ahmed-x-dev/devboard",
-  },
-  {
-    name: "EchoCart",
-    date: "LOG // 11.05 — LAUNCHED",
-    description:
-      "Full-featured e-commerce platform with cart, checkout, and admin dashboard.",
-    stack: ["Next.js", "Stripe", "MongoDB", "Tailwind"],
-    liveUrl: "https://echocart.example.com",
-    sourceUrl: "https://github.com/ahmed-x-dev/echocart",
-  },
-];
+import { projects } from "@/data/projects";
 
 export default function Projects() {
   return (
     <section id="projects" className="px-[7vw] py-27.5 relative">
       <div className="font-mono text-nomai text-[0.8rem] tracking-[0.08em] mb-2.5">
-        {"// SIGNALS RECEIVED"}
+        {"// Ship Log"}
       </div>
       <h2 className="font-display text-[clamp(1.9rem,4vw,2.7rem)] font-semibold mb-11">
-        Ship Log
+        Projects
       </h2>
 
       <div className="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-7">

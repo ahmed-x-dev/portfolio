@@ -2,10 +2,10 @@ export default function About() {
   return (
     <section id="about" className="px-[7vw] py-27.5 relative">
       <div className="font-mono text-nomai text-[0.8rem] tracking-[0.08em] mb-2.5">
-        {"// SHIP LOG"}
+        {"// Traveler Profile"}
       </div>
       <h2 className="font-display text-[clamp(1.9rem,4vw,2.7rem)] font-semibold mb-11">
-        Traveler Profile
+        About
       </h2>
 
       <div className="relative max-w-190 bg-bg-panel/55 border border-border rounded p-10">
