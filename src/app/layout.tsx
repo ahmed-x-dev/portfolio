@@ -3,6 +3,7 @@ import { Fraunces, Work_Sans, JetBrains_Mono } from "next/font/google";
 import Nav from "@/components/layout/Nav";
 import Footer from "@/components/layout/Footer";
 import BackgroundEffects from "@/components/effects/BackgroundEffects";
+import type { Metadata } from "next";
 
 const fraunces = Fraunces({
   subsets: ["latin"],
@@ -21,6 +22,12 @@ const jetbrainsMono = JetBrains_Mono({
   weight: ["400", "500"],
   variable: "--font-jetbrains-mono",
 });
+
+export const metadata: Metadata = {
+  title: "Ahmed Faisal — Full-Stack Developer",
+  description:
+    "Ahmed Faisal's developer portfolio — showcasing projects, skills, and experience in Next.js, React, TypeScript, Python, and FastAPI.",
+};
 
 export default function RootLayout({
   children,
