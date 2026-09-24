@@ -1,4 +1,4 @@
-import Campfire from "./effects/Campfire";
+import Campfire from "../effects/Campfire";
 
 export default function Hero() {
   return (

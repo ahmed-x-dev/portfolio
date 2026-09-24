@@ -1,6 +1,7 @@
 import "./globals.css";
 import { Fraunces, Work_Sans, JetBrains_Mono } from "next/font/google";
-
+import Nav from "@/components/layout/Nav";
+import Footer from "@/components/layout/Footer";
 import BackgroundEffects from "@/components/effects/BackgroundEffects";
 
 const fraunces = Fraunces({
@@ -33,7 +34,9 @@ export default function RootLayout({
     >
       <body>
         <BackgroundEffects />
+        <Nav />
         {children}
+        <Footer />
       </body>
     </html>
   );
