@@ -2,7 +2,7 @@
 
 > A personal developer portfolio built to showcase my projects, technical skills, and experience in building modern web applications.
 
-🌐 **Live Website:** [Add your deployed portfolio URL here]
+🌐 **Live Website:** [https://portfolio-inky-ten-16.vercel.app/]
 
 ---
 
