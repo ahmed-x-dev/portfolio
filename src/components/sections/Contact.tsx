@@ -18,7 +18,7 @@ export default function Contact() {
         </p>
 
         <a
-          href="mailto:you@example.com"
+          href="mailto:a8392280@gmail.com"
           className="inline-block font-mono text-[0.9rem] tracking-[0.04em] px-7 py-3.5 rounded-lg font-semibold text-[#1A0E05] bg-linear-to-br from-fire to-ember transition-all duration-250 ease-out hover:shadow-[0_0_26px_rgba(255,122,41,0.45)] hover:-translate-y-0.5 focus-visible:outline focus-visible:outline-nomai focus-visible:outline-offset-[3px]"
         >
           Send a signal 🔥

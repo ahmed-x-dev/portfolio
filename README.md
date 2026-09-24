@@ -1,36 +1,197 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Ahmed Faisal — Developer Portfolio
 
-## Getting Started
+> A personal developer portfolio built to showcase my projects, technical skills, and experience in building modern web applications.
 
-First, run the development server:
+🌐 **Live Website:** [Add your deployed portfolio URL here]
+
+---
+
+## 👨‍💻 About
+
+I'm a developer focused on building modern, reliable, and user-friendly web applications.
+
+I started with backend development and have expanded into frontend development to become a **full-stack developer**.
+
+My main interests include web development, APIs, databases, automation, and building practical software.
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- HTML
+- CSS
+- JavaScript
+
+### Backend
+
+- Python
+- FastAPI
+- Pydantic
+- SQLAlchemy
+- REST APIs
+
+### Databases & Infrastructure
+
+- PostgreSQL
+- Redis
+- Docker
+- Git
+- GitHub
+
+### Tools & Services
+
+- Vite
+- Clerk
+- TanStack Query
+- Zustand
+- OpenAPI
+- Vercel
+
+---
+
+## 🚀 Featured Projects
+
+### MyPedia
+
+A personal media tracking platform for managing movies, TV series, anime, manga, books, and games.
+
+**Tech:** Next.js · TypeScript · FastAPI · PostgreSQL · Redis · Clerk
+
+🔗 **Live:** [https://mypedia-rho.vercel.app/]
+
+---
+
+### Portfolio
+
+This website.
+
+A custom developer portfolio designed to showcase my projects, skills, and experience with an interactive visual style.
+
+**Tech:** Next.js · TypeScript · Tailwind CSS
+
+🔗 **Live:** [https://portfolio-inky-ten-16.vercel.app/]
+🔗 **Repository:** [https://github.com/ahmed-x-dev/portfolio]
+
+---
+
+## ✨ Features
+
+- Responsive design
+- Modern Next.js App Router architecture
+- Interactive UI
+- Animated background effects
+- Projects showcase
+- Skills section
+- Contact section
+- Responsive navigation
+- Dark-themed developer-focused design
+
+---
+
+## 📂 Project Structure
+
+```text
+src/
+├── app/
+│   ├── globals.css
+│   ├── icon.png
+│   ├── layout.tsx
+│   └── page.tsx
+│
+├── components/
+|   |
+|   |
+│   ├───effects/
+│   │       BackgroundEffects.tsx
+│   │       Campfire.tsx
+│   │       Embers.tsx
+│   │       Music.tsx
+│   │       Starfield.tsx
+│   │
+│   ├───layout/
+│   │       Footer.tsx
+│   │       Nav.tsx
+│   │
+│   └───sections/
+│           About.tsx
+│           Contact.tsx
+│           Hero.tsx
+│           Projects.tsx
+│           Skills.tsx
+│
+└── data/
+    ├── projects.ts
+    └── skills.ts
+```
+
+---
+
+## ⚙️ Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/ahmed-x-dev/portfolio.git
+```
+
+Navigate to the project:
+
+```bash
+cd portfolio
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📦 Build
 
-To learn more about Next.js, take a look at the following resources:
+Create a production build:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run build
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Run the production server:
 
-## Deploy on Vercel
+```bash
+npm start
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📬 Contact
+
+I'm open to opportunities, freelance projects, and interesting collaborations.
+
+- **GitHub:** [https://github.com/ahmed-x-dev/]
+- **LinkedIn:** [https://www.linkedin.com/in/ahmed-faisal-680413248/]
+- **Email:** [a8392280@gmail.com](mailto:a8392280@gmail.com)
+
+---
+
+## 📄 License
+
+This project is available for personal and educational use.
