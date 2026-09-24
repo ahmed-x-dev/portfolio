@@ -14,7 +14,7 @@ export default function BackgroundEffects() {
     <>
       <StarField />
       <Embers />
-      <Music />
+      {/* <Music /> */}
     </>
   );
 }

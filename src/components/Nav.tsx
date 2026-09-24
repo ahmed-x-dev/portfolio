@@ -32,7 +32,7 @@ export default function Nav() {
   }, []);
 
   return (
-    <nav className="sticky top-0 z-50 flex items-center justify-between px-[6vw] py-5 bg-bg/75 backdrop-blur-md border-b border-border">
+    <nav className="sticky top-0 z-50 flex items-center justify-between px-[6vw] py-4 bg-bg/75 backdrop-blur-md border-b border-border">
       <a href="#" className="flex items-center gap-2.5">
         <span className="w-4.5 h-6.5 rounded-[50%_50%_50%_50%/65%_65%_35%_35%] bg-[radial-gradient(circle_at_50%_70%,var(--color-fire-light),var(--color-fire)_70%,var(--color-ember)_100%)] animate-flicker" />
         <span className="font-display font-semibold text-lg text-cream">
@@ -45,7 +45,7 @@ export default function Nav() {
           <a
             key={link.href}
             href={link.href} // the href is the section id, e.g., #about, #projects, etc.(Automatically scrolls to the section that matches its ID when clicked *_*)
-            className={`font-mono text-[0.99rem] tracking-wide transition-colors ${
+            className={`font-mono text-[0.80rem] tracking-wide transition-colors ${
               // transition-colors : makes the color change smooth when the active section changes
               // tracking-wide : increases the spacing between letters for better readability
               active === link.href.slice(1) ? "text-fire-light" : "text-dim" // slice(1) removes the # from the href to match the section id
